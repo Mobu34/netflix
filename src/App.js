@@ -1,10 +1,13 @@
 import React from "react";
 import "./App.css";
+import Header from "./components/Header";
+import Main from "./components/Main";
 
 function App() {
   return (
-    <div>
-      Hello from <a href="https://www.lereacteur.io">Le Reacteur !</a>
+    <div className="container">
+      <Header />
+      <Main />
     </div>
   );
 }
